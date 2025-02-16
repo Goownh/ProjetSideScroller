@@ -1,24 +1,11 @@
 //if not in water (end of level) set gravity
 if(!dansEau) {
 	sprite_index = S_Perso_Marche;
-	if(vspeed < GravityPower) {
-		vspeed += 0.5
-	}
-
-	else {
-		vspeed = GravityPower;
-	}
-	var auSol = instance_place(x, y+1, [O_Collider]);
-	var Mur = instance_place(x+10,y , [O_Collider]);
-	show_debug_message(string(auSol));
-	if (auSol > 0) {
-		vspeed = 0;
-	}
+	vspeed = -0.3;
 	hspeed = 2;
+	image_xscale -= 0.0005;	
+	image_yscale -= 0.0005;
 	
-	if(Mur){
-		hspeed = 0;
-	}
 }
 else {
 	
@@ -108,8 +95,4 @@ else {
 		tridentCount--;
 	}
 	
-	var DebutDetec = instance_place(x, y, [O_DebutDetec]);
-	if(DebutDetec > 0) {
-		draw_sprite_ext(debutAlerte, 0, x - 10, y - 20, 0.05600002, 0.05600002, 0, $FFFFFF & $ffffff, 1);	
-	}
 }	
