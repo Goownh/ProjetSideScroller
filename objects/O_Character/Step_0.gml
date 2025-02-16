@@ -107,4 +107,9 @@ else {
 		instance_create_layer(x, y, "Character", O_Trident);
 		tridentCount--;
 	}
+	
+	var DebutDetec = instance_place(x, y, [O_DebutDetec]);
+	if(DebutDetec > 0) {
+		draw_sprite_ext(debutAlerte, 0, x - 10, y - 20, 0.05600002, 0.05600002, 0, $FFFFFF & $ffffff, 1);	
+	}
 }	

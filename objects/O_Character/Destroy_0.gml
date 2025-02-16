@@ -1,10 +1,8 @@
-/// @DnDAction : YoYo Games.Cameras.Set_View_Var
-/// @DnDVersion : 1
-/// @DnDHash : 5DC46645
-/// @DnDArgument : "var" "2"
-view_set_xport(0, 0);
-
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Pressed
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
-/// @DnDHash : 5219BD62
-var l5219BD62_0;l5219BD62_0 = mouse_check_button_pressed(mb_left);if (l5219BD62_0){}
+/// @DnDHash : 645D05F9
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "O_DebutDetec"
+/// @DnDSaveInfo : "object" "O_DebutDetec"
+var l645D05F9_0 = instance_place(x + 0, y + 0, [O_DebutDetec]);if ((l645D05F9_0 > 0)){}
