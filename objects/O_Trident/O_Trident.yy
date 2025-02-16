@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_Meduse",
+  "%Name":"O_Trident",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Trident","path":"objects/O_Trident/O_Trident.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Meduse","path":"objects/O_Meduse/O_Meduse.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Meduse",
+  "name":"O_Trident",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Meduse",
-    "path":"sprites/S_Meduse/S_Meduse.yy",
+    "name":"S_Trident",
+    "path":"sprites/S_Trident/S_Trident.yy",
   },
   "spriteMaskId":null,
   "visible":true,

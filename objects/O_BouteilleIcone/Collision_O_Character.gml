@@ -22,6 +22,5 @@ if(O_Character.O2 > O_Character.O2_Max){	/// @DnDAction : YoYo Games.Common.Va
 	/// @DnDHash : 19F1DDFB
 	/// @DnDParent : 2A21527A
 	/// @DnDArgument : "expr" "O_Character.O2_Max"
-	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "O_Character.O2"
-	O_Character.O2 += O_Character.O2_Max;}
+	O_Character.O2 = O_Character.O2_Max;}

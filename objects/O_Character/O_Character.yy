@@ -42,6 +42,7 @@
     {"$GMObjectProperty":"v1","%Name":"Hp_Max","filters":[],"listItems":[],"multiselect":false,"name":"Hp_Max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"O2_Max","filters":[],"listItems":[],"multiselect":false,"name":"O2_Max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6000","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"O2","filters":[],"listItems":[],"multiselect":false,"name":"O2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"tridentCount","filters":[],"listItems":[],"multiselect":false,"name":"tridentCount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

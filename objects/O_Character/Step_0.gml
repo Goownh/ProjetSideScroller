@@ -101,4 +101,10 @@ else {
 		room_goto(Mort);
 	}
 	
-}
+	//Trident Launch
+	var mouseClickL = mouse_check_button_pressed(mb_left);
+	if(mouseClickL && tridentCount > 0) {
+		instance_create_layer(x, y, "Character", O_Trident);
+		tridentCount--;
+	}
+}	
