@@ -46,7 +46,7 @@
     {"name":"PersoMarche","order":2,"path":"sprites/PersoMarche/PersoMarche.yy",},
     {"name":"PersoNage","order":3,"path":"sprites/PersoNage/PersoNage.yy",},
     {"name":"S_BouteilleIcone","order":9,"path":"sprites/S_BouteilleIcone/S_BouteilleIcone.yy",},
-    {"name":"S_Credits","order":23,"path":"sprites/S_Credits/S_Credits.yy",},
+    {"name":"S_Credits","order":24,"path":"sprites/S_Credits/S_Credits.yy",},
     {"name":"S_DebutAlerte","order":15,"path":"sprites/S_DebutAlerte/S_DebutAlerte.yy",},
     {"name":"S_DeplacerAlerte","order":16,"path":"sprites/S_DeplacerAlerte/S_DeplacerAlerte.yy",},
     {"name":"S_Fin","order":14,"path":"sprites/S_Fin/S_Fin.yy",},
